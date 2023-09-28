@@ -17,6 +17,22 @@
   
   </head>
 <body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="cities.html">A Few Cities</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="basic.html">Basic</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="advanced.html">Advanced</a>
+      </li>
+    </ul>
+    </div>
+  </nav>
     <h2>Visit cities with  Gomathi Nagiri</h2>
     <div class="container">
         <div class="row">
@@ -70,37 +86,37 @@ col-md screen width should be medium.
     </thead>
     <tbody>
       <tr>
-        <th class="table-primary">N</th>
+        <th scope="row"  class="table-primary">N</th>
         <td class="table-primary">Newyork</td>
         <td class="table-primary">Narmada</td>
         <td class="table-primary">Neem</td>
       </tr>
       <tr>
-        <th class="table-info">A</th>
+        <th  scope="row" class="table-info">A</th>
         <td class="table-info">Arizona</td>
         <td class="table-info">Alkhanandha</td>
         <td class="table-info">Amla</td>
       </tr>
       <tr>
-        <th class="table-warning">G</th>
+        <th scope="row" class="table-warning">G</th>
         <td class="table-warning">Galveston</td>
         <td class="table-warning">Godhavari</td>
         <td class="table-warning">Grapes</td>
       </tr>
       <tr>
-        <th class="table-danger">I</th>
+        <th scope="row" class="table-danger">I</th>
         <td class="table-danger">Indianapolis</td>
         <td class="table-danger">IRiver</td>
         <td class="table-danger">Inkwood</td>
       </tr>
       <tr>
-        <th class="table-success">R</th>
+        <th scope="row" class="table-success">R</th>
         <td class="table-success">Riverside</td>
         <td class="table-success">Rubicon</td>
         <td class="table-success">Redwood</td>
       </tr>
       <tr>
-        <th class="table-secondary">O</th>
+        <th scope="row" class="table-secondary">O</th>
         <td class="table-secondary">omaha</td>
         <td class="table-secondary">Oak</td>
         <td class="table-secondary">Olive</td>
@@ -108,6 +124,7 @@ col-md screen width should be medium.
     </tbody>
   </table>
 <br>
+<label>Buttons</label>
 <div class="btn">
   <button type="button" class="btn btn-secondary">N</button>
   <button type="button" class="btn btn-secondary">A</button>
@@ -117,6 +134,8 @@ col-md screen width should be medium.
   <button type="button" class="btn btn-secondary">o</button>
 </div>
 <br>
+<br>
+<label>Button Groups</label>
 <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
   <div class="btn-group " role="group" aria-label="First group">
     <button type="button" class="btn btn-success">N</button>
@@ -130,6 +149,17 @@ col-md screen width should be medium.
   <div class="btn-group" role="group" aria-label="Third group">
     <button type="button" class="btn btn-danger">o</button>
   </div>
+</div>
+<br>
+<div class="dropdown">  
+    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" >
+      Dropdown
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="basic.html">Basic html page link</a></li>
+      <li><a class="dropdown-item" href="advanced.html">Advanced html page link</a></li>
+    </ul>
+ 
 </div>
 
 
